@@ -1,0 +1,1 @@
+C:\Users\12345\Downloads\Actividad6_Matchmaking_Firebase_Unity\Actividad6_Matchmaking_Firebase_Unity\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\UnitySwappyWrapper.h

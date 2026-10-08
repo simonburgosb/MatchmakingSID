@@ -1,0 +1,10 @@
+ACTIVIDAD 6 - GUÍA RÁPIDA
+
+1. Reemplaza Assets/google-services.json por el archivo del proyecto que contiene
+   sistemasfisicosdistribui-c957b y la app Android com.upb.sid2026.
+2. Habilita Email/Password en Firebase Authentication.
+3. Publica database.rules.json en Realtime Database > Reglas.
+4. En Unity ejecuta SID2026 > 1. Configurar proyecto para Android.
+5. Abre Matchmaking/Scenes/Main.unity y pulsa Play.
+
+Consulta README.md en la raíz para el procedimiento completo y la prueba con dos clientes.

@@ -1,0 +1,60 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": {
+      ".read": "auth != null",
+      "$uid": {
+        ".write": "auth != null && auth.uid === $uid",
+        ".validate": "newData.hasChildren(['uid', 'displayName', 'email', 'createdAt'])"
+      }
+    },
+    "status": {
+      ".read": "auth != null",
+      "$uid": {
+        ".write": "auth != null && auth.uid === $uid",
+        ".validate": "newData.hasChildren(['uid', 'displayName', 'state', 'lastChanged']) || !newData.exists()"
+      }
+    },
+    "friendRequests": {
+      ".read": "auth != null",
+      "$receiverUid": {
+        "$senderUid": {
+          ".write": "auth != null && (auth.uid === $receiverUid || auth.uid === $senderUid)",
+          ".validate": "newData.hasChildren(['senderUid', 'senderName', 'sentAt']) || !newData.exists()"
+        }
+      }
+    },
+    "friends": {
+      ".read": "auth != null",
+      "$ownerUid": {
+        "$friendUid": {
+          ".write": "auth != null && (auth.uid === $ownerUid || auth.uid === $friendUid)",
+          ".validate": "newData.hasChildren(['uid', 'displayName', 'friendsSince']) || !newData.exists()"
+        }
+      }
+    },
+    "matchmaking": {
+      "queue": {
+        ".read": "auth != null",
+        "$uid": {
+          ".write": "auth != null && auth.uid === $uid",
+          ".validate": "newData.hasChildren(['uid', 'displayName', 'joinedAt']) || !newData.exists()"
+        }
+      },
+      "matches": {
+        ".read": "auth != null",
+        "$matchId": {
+          ".write": "auth != null",
+          ".validate": "newData.hasChildren(['matchId', 'player1Uid', 'player1Name', 'player2Uid', 'player2Name', 'status', 'createdAt']) || !newData.exists()"
+        }
+      },
+      "userMatches": {
+        ".read": "auth != null",
+        "$uid": {
+          ".write": "auth != null"
+        }
+      }
+    }
+  }
+}

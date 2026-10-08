@@ -1,0 +1,5 @@
+C:/Users/12345/Downloads/Actividad6_Matchmaking_Firebase_Unity/Actividad6_Matchmaking_Firebase_Unity/.utmp/RelWithDebInfo/p5y695m6/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/12345/Downloads/Actividad6_Matchmaking_Firebase_Unity/Actividad6_Matchmaking_Firebase_Unity/.utmp/RelWithDebInfo/p5y695m6/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/12345/Downloads/Actividad6_Matchmaking_Firebase_Unity/Actividad6_Matchmaking_Firebase_Unity/.utmp/RelWithDebInfo/p5y695m6/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/12345/Downloads/Actividad6_Matchmaking_Firebase_Unity/Actividad6_Matchmaking_Firebase_Unity/.utmp/RelWithDebInfo/p5y695m6/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/12345/Downloads/Actividad6_Matchmaking_Firebase_Unity/Actividad6_Matchmaking_Firebase_Unity/.utmp/RelWithDebInfo/p5y695m6/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
